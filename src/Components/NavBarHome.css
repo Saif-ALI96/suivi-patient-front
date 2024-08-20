@@ -1,0 +1,136 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  background: #265b1d;
+  width: 100%;
+  /* max-width: 540px; */
+  margin: auto;
+  padding: 8px 15px;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 15%;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.logo img {
+  border-radius: 50% !important;
+  width: 25%;
+  border: #040404 1px solid;
+}
+
+/* body {
+  padding: 0;
+  font-family: "Prompt", sans-serif;
+  font-weight: 400;
+} */
+.mainFrame {
+  text-align: center;
+  margin-left: 25%;
+}
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fcfcfd;
+  border-radius: 20px;
+  box-shadow: 0 0 0 1px #040404;
+  padding-left: 20px;
+}
+input {
+  flex: 1;
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 10px;
+  color: black;
+}
+/* h1,
+h2 {
+  color: #45737f;
+  font-weight: 700;
+} */
+
+/* .inner {
+  padding: 20px;
+} */
+/* .cf:before,
+.cf:after {
+  content: " ";
+  display: table;
+}
+
+.cf:after {
+  clear: both;
+}
+.filter-list {
+  margin: auto;
+  width: 300px;
+  border-radius: 5px;
+}
+.filter-list input {
+  width: 100%;
+  display: block;
+  padding: 10px;
+  border-radius: 5px;
+  border: 0;
+  font-size: 24px;
+  border: 1px solid #196090;
+}
+.filter-list input:focus {
+  outline: none;
+}
+.filter-list ul {
+  margin: 0;
+  padding: 0;
+  background: #acd0d2;
+  display: none;
+  border-radius: 5px;
+  position: relative;
+  top: 5px;
+  border: 1px solid #196090;
+}
+.filter-list ul.true {
+  display: block;
+}
+.filter-list ul li {
+  list-style-type: none;
+  margin: 0;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+.filter-list ul li:hover {
+  background: #2980b9;
+} */
+
+/* pour les autre pages */
+.logo2 {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.logo2 img {
+  border-radius: 50% !important;
+  width: 35%;
+  border: #040404 1px solid;
+  margin-right: 10%;
+}
+
+/* .backBotton {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+} */
+.backBotton img {
+  border-radius: 50% !important;
+  width: 20%;
+}
+/*  */
