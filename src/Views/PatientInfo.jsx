@@ -35,7 +35,6 @@ const PatientInfo = () => {
       <NavBar />
       <div className="patient-info-container">
         <h2>Patient Info</h2>
-
         <div className="patient-info">
           <p>
             <strong>Nom :</strong>{" "}
@@ -94,6 +93,7 @@ const PatientInfo = () => {
             Supprimer
           </button>
         </div>
+        test
       </div>
     </>
   );
