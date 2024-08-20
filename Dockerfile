@@ -1,15 +1,7 @@
-FROM node:18.16.0-alpine
-
-# set working directory
-WORKDIR /app
-
-# install app dependencies
-COPY package.json ./
-COPY package-lock.json ./
+FROM node:18-slim as base
+WORKDIR /suivi-patient-front
+COPY . .
+FROM base
 RUN npm install --silent
-
-# add app
-COPY . ./
-
-# start app
-CMD ["npm", "start"]
+EXPOSE 3000
+CMD ["/bin/bash", "-c"," npm run start"]
