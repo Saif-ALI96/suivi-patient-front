@@ -23,7 +23,7 @@ jobs:
             docker stop suivi-patient-front
             docker system prune -a -f
 
-  deploy-patient-front:
+  send-files-server:
     runs-on: ubuntu-latest
     needs: clear-docker-context
     if: always()
@@ -50,7 +50,7 @@ jobs:
             cd /${{ secrets.SERVER_USERNAME }}/suivi-patient-front
             docker build -t suivi-patient-front .
 
-      - name: Mount Landing page Container
+      - name: Deploy API Image
         uses: appleboy/ssh-action@master
         with:
           host: ${{ secrets.SERVER_HOST }}
