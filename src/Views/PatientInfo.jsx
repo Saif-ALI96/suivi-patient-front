@@ -93,7 +93,6 @@ const PatientInfo = () => {
             Supprimer
           </button>
         </div>
-        testhghghghghghhg
       </div>
     </>
   );
