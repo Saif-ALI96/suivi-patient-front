@@ -55,7 +55,7 @@ const style = {
     borderRadius: "10px",
     padding: "5px 15px",
     height: "15%",
-    margin: "10% 5% 0% 5%",
+    margin: "10% 3% 0%",
     position: "fixed",
     top: "90px",
     width: "90%",
